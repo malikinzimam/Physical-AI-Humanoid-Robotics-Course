@@ -31,7 +31,12 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+*   [ ] **I. AI/Spec-Driven Book Creation**: The plan adheres to the spec-driven development process.
+*   [ ] **II. Integrated RAG Chatbot Development**: The plan includes tasks for building and embedding the RAG chatbot.
+*   [ ] **III. Reusable Intelligence**: The plan considers opportunities for creating reusable intelligence.
+*   [ ] **IV. User Authentication**: The plan includes tasks for implementing user authentication.
+*   [ ] **V. Content Personalization**: The plan includes tasks for implementing content personalization.
+*   [ ] **VI. Content Translation**: The plan includes tasks for implementing content translation.
 
 ## Project Structure
 
