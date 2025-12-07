@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Robotic Book',
+  tagline: 'An Open Source book on Robotics and AI',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -27,8 +27,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Open-Robotics', // Usually your GitHub org/user name.
+  projectName: 'robotic-book', // Usually your repo name.
 
   onBrokenLinks: 'throw',
 
@@ -83,9 +83,9 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'Robotic Book',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Robotic Book Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -141,12 +141,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/Open-Robotics/robotic-book',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Robotic Book, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
